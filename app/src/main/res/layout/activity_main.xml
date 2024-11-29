@@ -10,11 +10,10 @@
         android:id="@+id/service_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="啟動Service"
-        android:textSize="22sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:text="啟動SERVICE"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
